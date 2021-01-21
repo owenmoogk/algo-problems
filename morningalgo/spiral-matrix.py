@@ -33,10 +33,11 @@ def spiralMatrix(array):
             if y == rotations:
                 direction = 'right'
                 rotations += 1
+    return(returnList)
 
 nums = [[1,2,3,1001],
         [8,9,4,1002],
         [7,6,5,1003],
         [111,222,333,1004],
         [10,11,12,13]]
-spiralMatrix(nums)
+print(spiralMatrix(nums))
