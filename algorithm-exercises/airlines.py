@@ -43,8 +43,6 @@ class Graph:
                     if shortestPath is None or len(newpath) < len(shortestPath):
                         shortestPath = sp
         return(shortestPath)
-    
-    def addNode(self, start, data):
 
 
 if __name__ == "__main__":
